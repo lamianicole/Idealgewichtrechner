@@ -1,1 +1,9 @@
-console.log("hi");
+const lengthInput = document.getElementById('lengthInput') as HTMLInputElement;
+const ageInput = document.getElementById('ageInput') as HTMLInputElement;
+const bodyType = document.getElementById('bodyType') as HTMLSelectElement;
+const submitBtn = document.getElementById('submitBtn') as HTMLButtonElement;
+const outputResult = document.getElementById('outputResult') as HTMLParagraphElement;
+
+submitBtn?.addEventListener('click', function() {
+    // function calcuteIdealWeight(length: number, age: number, bodyType: )
+})
