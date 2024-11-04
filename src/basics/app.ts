@@ -6,4 +6,6 @@ const outputResult = document.getElementById('outputResult') as HTMLParagraphEle
 
 submitBtn?.addEventListener('click', function() {
     // function calcuteIdealWeight(length: number, age: number, bodyType: )
+    console.log("button wurde geklickt");
+    
 })
