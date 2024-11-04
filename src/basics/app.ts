@@ -10,10 +10,6 @@ submitBtn?.addEventListener('click', () => {
     const alter = Number(ageInput.value); 
     const breit = selectBreit.checked; 
 
-    if (isNaN(groesse) || isNaN(alter)) {
-        outputResult.textContent = "Bitte geben Sie gültige Zahlen ein";
-        return;
-    }
     let basisBerechnung = (groesse - 100) + (alter/ 10);
     let idealGewicht = basisBerechnung * 0.9; 
 
