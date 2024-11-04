@@ -8,6 +8,8 @@ submitBtn?.addEventListener('click', function() {
     // function calcuteIdealWeight(length: number, age: number, bodyType: )
     console.log("button wurde geklickt");
     console.log("noch mal button geklickt");
+    console.log("Dritter Versuch");
+    
     
     
 })
