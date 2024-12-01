@@ -4,25 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./app.css">
-    <title>Idealgewichtrechner</title>
+    <title>Ideal body weight calculator</title>
 </head>
-<body>
-    <h1>Idealgewichtrechner</h1>
-    <h3>Körpergröße</h3>
-    <input type="number" id="lengthInput" placeholder="180">
-    <h3>Alter</h3>
-    <input type="number" id="ageInput" placeholder="36">
-    <h3>Körperbau</h3>
-    <div id="bodyType">
-        <input type="radio" id="selectBreit" name="koerperBau" >
-        <label for="Breit">Breit</label>
-        <input type="radio" id="selectSchmal" name="koerperBau">
-        <label for="Schmal">Schmal</label>
-    </div>
-    <input type="button" id="submitBtn" value="Submit">
-    <p id="outputResult">Dein Idealgewicht ist</p>
-
-
-    <script type="module" src="./app.ts"></script>
+<body> 
+    <h1>Idealgewichtrechner</h1> 
+    <h3>Körpergröße</h3> 
+    <input type="number" id="lengthInput" placeholder="180" min="1"> <h3>Alter</h3> 
+    <input type="number" id="ageInput" placeholder="36" min="1"> <h3>Körperbau</h3> 
+    <div id="bodyType"> 
+        <input type="radio" id="selectBreit" name="koerperBau" value="wide" class="bodyStructure"> 
+        <label for="selectBreit">Breit</label> 
+        <input type="radio" id="selectSchmal" name="koerperBau" value="slim" class="bodyStructure"> 
+        <label for="selectSchmal">Schmal</label> 
+    </div> 
+    <input type="button" id="submitBtn" value="Submit"> 
+    <p id="outputResult">Dein Idealgewicht ist</p>   
+<script type="module" src="./app.ts"></script>
 </body>
 </html>
